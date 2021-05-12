@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Base exercise page</title>
+
+    <meta name="description" content="A simple exercise template." />
+    <!-- styles -->
+    <style>
+      .diving-board {
+        animation-duration: 3s;
+        animation-name: spring;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        transform-origin: 0px 0px;
+      }
+      @keyframes spring {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(45deg) scale(2);
+          letter-spacing: 14px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>A Simple Animation</h1>
+    <div class="diving-board">this is some text</div>
+    <!-- script -->
+    <script></script>
+    <!-- include the Glitch button to show what the webpage is about and
+          to make it easier for folks to view source and remix -->
+    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
+    <script src="https://button.glitch.me/button.js" defer></script>
+  </body>
+</html>
